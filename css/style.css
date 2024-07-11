@@ -55,19 +55,22 @@ h1 {
     margin: 0 auto;
     margin-top: 50px;
 }
-.first-section-content{
+
+.first-section-content {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
+
 .first-section-container .first-section-content h1 {
     color: rgb(255, 0, 0);
     font-family: Inter;
     font-size: 35px;
     margin-bottom: 20px;
 }
-.first-section-container .first-section-content p{
+
+.first-section-container .first-section-content p {
     color: rgb(255, 0, 0);
     font-family: Inter;
     font-weight: 500;
@@ -75,7 +78,8 @@ h1 {
     font-size: 13px;
     margin-bottom: 10px;
 }
-.first-section-container .first-section-content h3{
+
+.first-section-container .first-section-content h3 {
     color: rgb(7, 2, 17);
     font-family: Inter;
     font-weight: 800;
@@ -83,14 +87,194 @@ h1 {
     font-size: 18px;
     margin-bottom: 30px;
 }
-.first-section-container .first-image-container{
+
+.first-section-container .first-image-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
-.first-section-container .first-image-container img{
+
+.first-section-container .first-image-container img {
     width: 300px;
     height: 200px;
-   border: 1px dashed rgb(30, 30, 30,0.3); 
+    border: 1px dashed rgb(30, 30, 30, 0.3);
+}
+
+/* midnight party section style starts here */
+.midnight-section-container {
+    max-width: 1180px;
+    min-height: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    background-image: url(../images/Vectorrr.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.midnight-section-container .left-side-content {
+    width: 50%;
+    padding: 150px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.midnight-section-container .left-side-content h1 {
+    font-weight: 800;
+    color: white;
+    letter-spacing: 3px;
+    font-size: 35px;
+    line-height: 42px;
+    margin-bottom: 20px;
+}
+
+.midnight-section-container .left-side-content p {
+    color: white;
+    font-size: 14px;
+}
+
+.midnight-section-container .right-side-content {
+    width: 50%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#midnight-button {
+    margin-top: 30px;
+    color: rgb(255, 255, 255);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.midnight-section-container .right-side-content img {
+    width: 45%;
+    border: 2px dashed rgb(30, 30, 30, 0.4);
+}
+
+/* holiday sale styles starts here */
+.holiday-section-container {
+    max-width: 1180px;
+    min-height: 500px;
+    margin: 0 auto;
+    margin-top: 60px;
+    position: relative;
+}
+
+.holiday-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 60%;
+    height: 260px;
+    margin: 0 auto;
+}
+
+.holiday-text-container h5 {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(7, 2, 17);
+    margin-bottom: 20px;
+}
+
+.holiday-text-container h1 {
+    font-family: Merriweather;
+    font-weight: 900;
+    text-align: center;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.holiday-text-container h1 span {
+    color: red;
+}
+
+.holiday-text-container p {
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.solid-color {
+    width: 1180px;
+    height: 160px;
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    border-radius: 10px;
+}
+
+.gift-box {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.gift-box img {
+    width: 290px;
+    height: 195px;
+    position: relative;
+    z-index: 1;
+}
+
+.gift-box .percent-container img {
+    width: 68%;
+    height: 81%;
+}
+
+.portfolio-container {
+    max-width: 900px;
+    min-height: 500px;
+    margin: 0 auto;
+    padding-left: 65px;
+}
+
+.portfolio-container .portfolio-content h5{
+    color:red;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.portfolio-container .portfolio-content h1{
+    color: rgb(7, 2, 17);
+font-family: Merriweather;
+font-size: 28px;
+font-weight: 900;
+text-align: left;
+text-transform: capitalize;
+margin-bottom: 10px;
+}
+.portfolio-container .portfolio-content p{
+    color: rgba(7, 2, 17, 0.6);
+font-family: Inter;
+font-size: 13px;
+font-weight: 400;
+text-align: left;
+margin-bottom: 30px;
+}
+.items img{
+    width: 250px;
+    height: 280px;
+}
+.portfolio-items{
+display: grid;
+grid-template-columns:repeat(3,1fr) ;
+row-gap: 30px;
 }
